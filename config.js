@@ -18,7 +18,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 module.exports = {
     VERSION: 'v7.3.6',
     CHANNEL: 'https://t.me/remasterplugin',
-    SESSION: process.env._SHADOW_SESSION === undefined ? '' : process.env._SHADOW_SESSION,
+    SESSION: process.env._QR_SESSION === undefined ? '' : process.env._QR_SESSION,
     RBG_API_KEY: process.env.RBG_API_KEY === undefined ? '' : process.env.RBG_API_KEY,
     DURATION: process.env.BGM_DURATION === undefined ? '0' : process.env.BGM_DURATION,
     BOT_PRESENCE: process.env.BOT_PRESENCE === undefined ? 'online' : process.env.BOT_PRESENCE,
